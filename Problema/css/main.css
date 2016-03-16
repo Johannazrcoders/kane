@@ -1,0 +1,164 @@
+/*HEADER*/
+header{
+	background-image: url("../img/carousel-bg.jpg");
+	font-size:cover;
+	width:100%;
+	vertical-align:middle;
+	height:100%;
+	height:80vh;
+	color:white;
+}
+header .navbar{
+	padding:20px 100px 10px 100px;
+	background-color:#04B45F !important;
+	display:inline-block;
+}
+
+nav li,a{
+	color:white!important;
+	display:inline-block;
+	padding:10px;
+}
+header h1{
+	margin-left:100px;
+	margin-right:100px;
+	text-align:center;
+	font-size:5em;
+	font-family:'Open Sans'
+}
+header p{
+	margin-left:100px;
+	margin-right:100px;
+	text-align:center;
+	font-size:2em;
+	font-family:'Open Sans'
+}
+/*PALETTE*/
+section h1{
+	text-align:center;
+}
+section hr{
+	border:1px solid black;
+	width:20%;
+}
+/*ABOUT*/
+.about{
+	padding:30px;	
+	color:white;
+	background-color:#2C3E50;
+}
+.about hr{
+	border:1px solid white;
+	width:10%;
+}
+.about p{
+	margin-top:50px;
+	margin-bottom:50px;
+}
+.progress{
+	margin-bottom:0;
+	margin-top:15px;
+}
+.about img{
+	width:100%;
+/*	padding-left:80px;*/
+	margin-top:50px;
+}
+/*WHAT WE DO*/
+.we{
+	text-align:center;
+	color:white;
+	background-color:#27AD60;
+	padding-bottom:100px;
+}
+.we hr{
+	border:1px solid white;
+	width:15%;
+}
+.box{
+	height:170px;
+	width:170px;
+	background-color:#2C3E50;
+}
+  .green p {
+    font-size: 15px;
+    font-weight: 300;
+    margin-top: 10px;
+    font-family: 'Roboto'; 
+}  
+.we .row{
+	margin:50px auto 0px;
+}
+.we .col-lg-4 {
+      padding: 0px;      
+}
+.we .box-icons {
+    padding: 35px; 
+}   
+.we .box-icons h3 {
+    font-size: 25px;
+    font-weight: 400;
+    margin-top: 30px;
+    font-family: 'Roboto', sans-serif; 
+}
+.we .box-icons p {
+    font-size: 15px;
+    font-weight: 300;
+    margin-top: 10px;
+    font-family: 'Roboto', sans-serif;
+    color: #BCC5D0; 
+}
+.we .box-icons hr {
+    border-color: #27AD60; 
+}
+.we .box-icons .box {
+    background-color: #2C3E50;
+    position: relative;      
+    width: 150px;
+    height: 150px;
+    margin: auto; 
+}
+.we .box-icons .box img.dn {
+    width: 150px;
+    height: 150px; 
+}      
+.we .box-icons .box .img-responsive {
+    width: 100px;        
+    height: 100px;
+    position: absolute;        
+    top: 25px;
+    left: 23px; 
+}    
+.we .box-icons:hover {
+    background-color: #2A7257;
+    transition-duration: 1s,1s,1s,1s,1s,1s; 
+}
+.we .box-icons:hover h3 {
+    color: #C87B29;     
+}      
+.we .box-icons:hover hr {
+    border-color: #fff;         
+}
+.we .box-icons:hover .box {
+    background-color: #C87B29;
+    -webkit-transform: rotate(60deg);
+    transition-duration: 2s,2s,2s,2s,2s,2s;         
+}
+.we .box-icons:hover .box img.dn {      
+	display: none; 
+}  
+   
+.we .boton:hover {
+    background-color: #1C3146; 
+}
+
+.hire{
+	width: 125px;
+    background-color: #443E44;
+    margin-bottom:150px;
+    text-align:center;
+    
+}
+/*TEAM*/
+
+/*# sourceMappingURL=main.css.map */
